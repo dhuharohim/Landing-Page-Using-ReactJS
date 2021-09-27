@@ -1,7 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar } from "./Main-Comp/Navbar";
 function App() {
-  return <h2>wooooow....You</h2>;
+  return <Navbar />;
 }
 
 export default App;
